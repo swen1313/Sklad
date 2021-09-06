@@ -18,6 +18,7 @@ from sklad import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),  # http://localhost:5000/admin
-    path('sklad/', include('sklad.urls')),
+    path('', include('sklad.urls')),
+
     # path('', views.index)
 ]
